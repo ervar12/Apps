@@ -1,0 +1,67 @@
+ <!-- //APP BETA PARA JUGAR CARTAS, COMO LA PODRIDA, Y TAMBIEN SIRVE PARA  ARMAR UN PRESUPUESTO
+// Y HACER LA SUMAS PARCIALES
+//AUTOR ERVAR LUIS MOLINA-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YO TE VI EN NEGATIVO BRUNO</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <h1> La podrida de play & morfi</h1>
+  
+  <img width="15%" src="imagenes/ervar.jpg" alt="Autor: Ervar Luis Molina">
+  
+  <div id="userInput">
+    <input type="text" id="userName" placeholder="El champion siempre esta">
+    <button class="modern-button" onclick="addUser()">Agrega Jugadores</button>
+    <button class="modern-button" onclick="startProgram()">Arrancamos?</button>
+ 
+  </div>
+  
+  <div id="tableContainer">
+    <table style id="numberTable">
+   
+      <!-- Table will be generated dynamically -->
+    </table>
+    
+  </div>
+  
+  <script>
+    window.addEventListener('beforeunload', function(e) {
+      // Cancela el evento de recarga por defecto
+      e.preventDefault();
+      // Mensaje de confirmación personalizado
+      e.returnValue = '';
+      // Mostrar una alerta con opciones
+      var confirmationMessage = '¿Estás seguro? VAS A HACER CAGADAAA.....';
+      e.returnValue = confirmationMessage;
+      return confirmationMessage;
+    });
+
+
+    let numberOfHands = 0;
+
+    function startProgram() {
+        numberOfHands = parseInt(prompt("Cuantas manos jugamos? PERDEDOORRR:"));
+      if (isNaN(numberOfHands) || numberOfHands <= 0) {
+        alert("Vos sos boludo????!!!");
+        return;
+      }
+      createTable();
+    }
+ 
+  </script>
+
+  <script src="script1.js"></script>
+  
+
+  <footer style="margin-top: 5%;"> Autor : Ervar Luis Molina</footer>
+  <img  width="20%" src="imagenes/pet.jpg" id="imagen" style="display: none;" >
+  <div>
+  <button style="margin-top: 10%;" class="modern-button"  onclick="mostrarImagen()">Tocame puto</button>
+</div>
+</body>
+</html>

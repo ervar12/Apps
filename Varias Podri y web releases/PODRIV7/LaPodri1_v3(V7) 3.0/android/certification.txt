@@ -1,0 +1,24 @@
+---------------------------------------------------
+Here are the ownership and the certification details
+of the LaPodri1_v3 3.0
+---------------------------------------------------
+
+app_name - 						LaPodri1_v3
+app_alias - 					lapodri1v3
+app_author_name - 				My Company
+app_author_organizational - 	My Company
+app_author_organization - 		My Company
+app_author_locality - 			My Company
+app_author_state - 				Ciudad Autonoma de Buenos Aires
+app_author_country - 			Argentina
+app_password - 					Z4ylr95Ilhyg
+app_versionName - 				versionName "3.0"
+app_versionCode - 				300
+
+---------------------------------------------------
+The certification was created by WebIntoApp.com at
+the Friday 5th of April 2024 01:01:56 PM
+
+https://www.webintoapp.com
+---------------------------------------------------
+

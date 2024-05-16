@@ -1,0 +1,100 @@
+/*APP BETA PARA JUGAR CARTAS, COMO LA PODRIDA, Y TAMBIEN SIRVE PARA  ARMAR UN PRESUPUESTO
+// Y HACER LA SUMAS PARCIALES
+//AUTOR ERVAR LUIS MOLINA*/
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Si quieres que ocupe toda la altura de la pantalla */
+}
+  /* Estilos para los botones */
+  .modern-button {
+    background-color: #cc6d15; /* Color de fondo */
+    border: 2px solid  rgba(0, 21, 6, 0.947);  
+    box-shadow: 1px 4px 8px #cc6d15;
+    color: white; /* Color de texto */
+    padding: 12px 30px; /* Espaciado interno */
+    text-align: auto; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: auto;
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen */
+    transition-duration: 0.4s; /* Duración de la transición */
+    cursor: pointer; /* Cambio de cursor */
+    border-radius: 20px; /* Radio del borde */
+  }
+  
+  .modern-button:hover {
+    background-color: #0b1ac0; /* Cambio de color de fondo en hover */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: narrower;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    animation-direction: reverse;
+    animation-delay: 2s;
+    display: auto;
+
+  }
+  
+  
+/* Estilos para la fila de encabezado */
+ table {
+    background-color: #040a04; /* Color de fondo */
+    color: white; /* Color de texto */
+    border-bottom: #2f0be5;
+    border: 5px solid blue;
+  }
+  
+  /* Estilos para las celdas de encabezado */
+  
+ th {
+    border: 2px solid rgb(105, 10, 207); /* Borde */
+    padding: 15px; /* Espaciado */
+    font-size: 120%; /* Tamaño de fuente */
+   
+  }
+  
+  /* Estilos para las celdas del cuerpo de la tabla */
+  #numberTable td {
+    border: 2px solid salmon; /* Borde */
+    padding: 15px; /* Espaciado */
+    font-size: 120%; /* Tamaño de fuente */
+  }
+  
+/* otro botón */
+.whatsapp-btn {
+  background-color: #25d366;
+  color: #fff;
+  border: none;
+  padding: 7px 7px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+/* al seleccionar */
+.whatsapp-btn:hover {
+  background-color: #128c7e;
+}
+.scroll-right-button {
+
+  border: 3px solid ;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+
+  bottom: auto;
+  /*right: 20px;*/
+
+
+}
+
+.whatsapp-btn,
+.modern-button,
+.scroll-right-button {
+    margin-right: 10px; /* Ajusta el valor del margen según sea necesario */
+}

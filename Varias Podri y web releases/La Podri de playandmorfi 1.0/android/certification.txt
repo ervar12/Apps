@@ -1,0 +1,24 @@
+---------------------------------------------------
+Here are the ownership and the certification details
+of the La Podri de playandmorfi 1.0
+---------------------------------------------------
+
+app_name - 						La Podri de playandmorfi
+app_alias - 					lapodrideplayandmorfi
+app_author_name - 				My Company
+app_author_organizational - 	My Company
+app_author_organization - 		My Company
+app_author_locality - 			My Company
+app_author_state - 				Ciudad Autonoma de Buenos Aires
+app_author_country - 			Argentina
+app_password - 					grcckH7OGDmQ
+app_versionName - 				versionName "1.0"
+app_versionCode - 				100
+
+---------------------------------------------------
+The certification was created by WebIntoApp.com at
+the Wednesday 20th of March 2024 03:38:21 PM
+
+https://www.webintoapp.com
+---------------------------------------------------
+
